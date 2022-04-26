@@ -4,11 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Alura Challenge</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <header>
+        <h1>Alura Challenge - Encriptador</h1>
+        <img src="./imagenes/Logo.png" alt="Logo Alura" class="logo">
+    </header>
+
+    <main>
+        <section class="pantallaResultados">
+            <!-- <div id='mostrar-texto' class="resultadosTexto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae modi laborum minus exercitationem iusto consequatur laboriosam aut aperiam, et, non nemo earum natus repellat provident deleniti cum. Officiis, modi nam?</p>
+                <button id="btn-copiar" type="submit" class="btn-copiar">Copiar</button>
+            </div> -->
+
+            <div id='mostrar-imagenes-resultado' class="resultadoInicio">
+                <img src="./imagenes/Munheco.png" alt="Imagen muñeco Alura" class="munheco">
+                <p class="detalleUsuario">
+                    Ingresá el texto que desees encriptar o desencriptar
+                </p>
+                <p class="infoUsuario">
+                    Ningún mensaje fue encontrado
+                </p>
+            </div>
+        </section>
+        
+        
+        <section class="frame1">
+            <i class="fa">&#xf06a;</i>
+            <p class="instruccionesUsuario">Solo letras minúsculas y sin acentos</p>
+        </section>
+
+        <section class="mensajeria">
+            <form>
+                <textarea id="mensaje" class="cuerpoMensaje" placeholder="Ingrese el texto aquí" required></textarea>
+                <button id="btn-encriptar" class="btn-encriptar">Encriptar</button>
+                <button id="btn-desencriptar" class="btn-desencriptar">Desencriptar</button>
+            </form>
+            <div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="datosFooter">
+            <img src="./imagenes/logo-seba-black.png" alt="Logo SDC Black">
+            <div class="datosPrincipales">
+                <p>by Sebastián D´Alessandro Casanova</p>
+                <p>Mail: sebadalessandro@hotmail.com</p>
+                <p>Cel: +54 (9280) 458-3832</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./javaScript/encriptador.js"></script>
+    <script src="./javaScript/desencriptar.js"></script>
+
     
 </body>
 </html>

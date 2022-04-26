@@ -1,0 +1,191 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+
+header h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px 40px;
+    color:#0A3871;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.logo {
+    position: static;
+    height: 48px;
+    width: 120px;
+    border-radius: 0px;
+    flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 40px 0px;
+}
+
+.pantallaResultados{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.resultadosTexto {
+    width: 336px;
+    height: 781px;
+    margin:32px auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+}
+
+.btn-copiar{
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 32px;
+    top: 845px;
+    margin-bottom:32px;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+/* Ingresa el texto que desees encriptar o desencriptar. */
+.detalleUsuario{
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    margin: 653px auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+
+/* Ningún mensaje fue encontrado */
+.infoUsuario{
+    position: absolute;
+    width: 400px;
+    height: 58px;
+    margin: 579px auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+}
+
+/* Muñeco */
+.munheco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    margin: 243px 32px;
+}
+
+/* Frame 1 */
+.frame1{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 264px;
+    top: 851px;
+}
+
+.instruccionesUsuario{
+    /* Solo letras minúsculas y sin acentos */
+    margin: 0px 8px;
+    width: 205px;
+    height: 18px;
+    left: 24px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.fa{
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    top: 1px;
+}
+
+.cuerpoMensaje{
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    border: none;
+    background: none;
+}
+
+/* Button encriptar*/
+.btn-encriptar{
+    margin: 750px 0 24px 240px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
+/* Button desencriptar */
+.btn-desencriptar{
+    margin: 0 24px;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    left: 147px;
+    top: 24px;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.datosFooter {
+    display: flex;
+    margin: 30px; 
+    padding-bottom: 20px
+}
+
+.datosPrincipales {
+    margin: auto 10px;
+    display: block;
+}
