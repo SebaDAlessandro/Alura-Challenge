@@ -11,6 +11,11 @@ header h1{
     margin: 40px 500px;
     color:#495057;
     text-decoration: underline;
+    transition: 1s;
+}
+
+header h1:hover{
+    color: black;
 }
 
 .logo {
@@ -61,8 +66,15 @@ header h1{
     border: 1px solid #0A3871;
     box-sizing: border-box;
     border-radius: 24px;
-    font-size: 0.7em;
+    font-size: 16px;
     font-weight: bold;
+    transition: 1s;
+}
+
+.btn-copiar:hover{
+    background:rgb(11, 94, 11);
+    font-size: 17px;
+    color: white;
 }
 
 /* Ingresa el texto que desees encriptar o desencriptar. */
@@ -161,7 +173,15 @@ header h1{
     background: #0A3871;
     border-radius: 24px;
     color: #FFFFFF;
-    font-size: 1.2em;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.btn-encriptar:hover{
+    background: #FFFFFF;
+    color: #0A3871;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 /* Button desencriptar */
@@ -173,8 +193,17 @@ header h1{
     border: 1px solid #0A3871;
     box-sizing: border-box;
     border-radius: 24px;
-    font-size: 1em;
+    font-size: 16px;
     font-weight: bold;
+    transition: 700ms;
+}
+
+.btn-desencriptar:hover{
+    background: black;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 17px;
+    border-color: gray;
 }
 
 .datosFooter {
