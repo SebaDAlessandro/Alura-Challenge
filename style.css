@@ -8,9 +8,8 @@ body {
 header h1{
     font-size: 30px;
     font-weight: bold;
-    margin: 40px 40px;
-    color:#0A3871;
-    font-style: italic;
+    margin: 40px 500px;
+    color:#495057;
     text-decoration: underline;
 }
 
@@ -34,6 +33,10 @@ header h1{
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
+}
+
+.borrar{
+    display: none;
 }
 
 .resultadosTexto {
@@ -102,7 +105,6 @@ header h1{
 
 /* Frame 1 */
 .frame1{
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -111,7 +113,7 @@ header h1{
     width: 229px;
     height: 18px;
     left: 264px;
-    top: 851px;
+    top: 845px;
 }
 
 .instruccionesUsuario{
@@ -119,8 +121,6 @@ header h1{
     margin: 0px 8px;
     width: 205px;
     height: 18px;
-    left: 24px;
-    top: 0px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -155,7 +155,7 @@ header h1{
 
 /* Button encriptar*/
 .btn-encriptar{
-    margin: 750px 0 24px 240px;
+    margin: 669px 0 24px 240px;
     width: 328px;
     height: 67px;
     background: #0A3871;
@@ -170,8 +170,6 @@ header h1{
     padding: 24px;
     width: 328px;
     height: 67px;
-    left: 147px;
-    top: 24px;
     border: 1px solid #0A3871;
     box-sizing: border-box;
     border-radius: 24px;

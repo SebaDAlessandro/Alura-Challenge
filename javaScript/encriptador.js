@@ -5,6 +5,14 @@ btnEncriptar.addEventListener('click',(e)=>{
     e.preventDefault();
 
     document.getElementById("mostrar-imagenes-resultado").style.display = "none";
+    let pantallaResultado = document.getElementById("mostrar-texto")
+    pantallaResultado.classList.remove('borrar')
+    pantallaResultado.classList.add('resultadosTexto')
+    let elementP = document.createElement('p')
+    // console.log(pantallaResultado)
+    
+   
+    // pantallaResultado.innerHTML = elementP
 
     let texto = document.querySelector('#mensaje')
     let mensaje = (texto.value);
@@ -18,7 +26,6 @@ btnEncriptar.addEventListener('click',(e)=>{
     La letra "u" es convertida para "ufat"
     */
 
-    console.log(mensaje.length)
     for (let i = 0; i < mensaje.length; i++) {
              
         switch (mensaje[i]) {
@@ -43,5 +50,7 @@ btnEncriptar.addEventListener('click',(e)=>{
                 break;
         }
     }
-    console.log('codificado',codificado)
+    // console.log('codificado',codificado)
+    elementP.textContent = codificado;
+    pantallaResultado.appendChild(elementP)
 })
