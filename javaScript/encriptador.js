@@ -9,11 +9,7 @@ btnEncriptar.addEventListener('click',(e)=>{
     pantallaResultado.classList.remove('borrar')
     pantallaResultado.classList.add('resultadosTexto')
     let elementP = document.createElement('p')
-    // console.log(pantallaResultado)
     
-   
-    // pantallaResultado.innerHTML = elementP
-
     let texto = document.querySelector('#mensaje')
     let mensaje = (texto.value);
     let codificado = [];
@@ -50,7 +46,25 @@ btnEncriptar.addEventListener('click',(e)=>{
                 break;
         }
     }
-    // console.log('codificado',codificado)
+
     elementP.textContent = codificado;
     pantallaResultado.appendChild(elementP)
+
+    function copy(c) {
+        let inputElement = document.createElement('input');
+        inputElement.setAttribute('value',c)
+        document.body.appendChild(inputElement);
+        inputElement.select();
+        document.execCommand('copy')
+        inputElement.parentNode.removeChild(inputElement);
+    }
+    
+    document.querySelector('#btn-copiar').onclick = function(){
+        copy(codificado);
+        elementP.textContent = '';
+    }
+
+    let form = document.querySelector('#formulario')
+    form.reset()
 })
+
