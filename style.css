@@ -1,43 +1,48 @@
 body {
     position: relative;
     width: 1440px;
-    height: 1024px;
-    background: #F3F5FC;
+    height: 770px;
+    background-image: url(./imagenes/fondo-codigos.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header h1{
     font-size: 30px;
     font-weight: bold;
     margin: 40px 500px;
-    color:#495057;
+    color:black;
     text-decoration: underline;
     transition: 1s;
-}
-
-header h1:hover{
-    color: black;
+    text-align: center;
+    background-color:rgba(173, 216, 230, 0.575);
+    padding: 10px 10px;
+    border-radius: 30px;
 }
 
 .logo {
     position: static;
     height: 48px;
-    width: 120px;
+    width: 90px;
     border-radius: 0px;
     flex: none;
 	order: 0;
 	flex-grow: 0;
 	margin: 40px 0px;
+    background: rgba(173, 216, 230, 0.575);
+    border-radius: 50px;
 }
 
 .pantallaResultados{
     position: absolute;
     width: 400px;
-    height: 944px;
+    height: 600px;
     left: 1000px;
     top: 40px;
     background: #FFFFFF;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 1);
     border-radius: 32px;
+    opacity: 80%;
 }
 
 .borrar{
@@ -46,7 +51,7 @@ header h1:hover{
 
 .resultadosTexto {
     width: 336px;
-    height: 781px;
+    height: 600px;
     margin:32px auto;
     font-family: 'Inter';
     font-style: normal;
@@ -61,7 +66,7 @@ header h1:hover{
     width: 336px;
     height: 67px;
     left: 32px;
-    top: 845px;
+    top: 490px;
     margin-bottom:32px;
     border: 1px solid #0A3871;
     box-sizing: border-box;
@@ -82,7 +87,7 @@ header h1:hover{
     position: absolute;
     width: 400px;
     height: 48px;
-    margin: 653px auto;
+    margin: 350px auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -97,7 +102,7 @@ header h1:hover{
     position: absolute;
     width: 400px;
     height: 58px;
-    margin: 579px auto;
+    margin: 310px auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -112,7 +117,7 @@ header h1:hover{
     position: absolute;
     width: 336px;
     height: 304px;
-    margin: 243px 32px;
+    margin: 10px 32px;
 }
 
 /* Frame 1 */
@@ -122,23 +127,22 @@ header h1:hover{
     align-items: center;
     padding: 0px;
     position: absolute;
-    width: 229px;
+    width: 320px;
     height: 18px;
     left: 264px;
-    top: 845px;
+    top: 500px;
 }
 
 .instruccionesUsuario{
     /* Solo letras minúsculas y sin acentos */
-    margin: 0px 8px;
-    width: 205px;
-    height: 18px;
+    margin: 0px 3px;    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 150%;
-    color: #495057;
+    text-align: center;
+    color:white;
     opacity: 0.8;
 }
 
@@ -161,13 +165,13 @@ header h1:hover{
     font-size: 32px;
     line-height: 150%;
     color: #0A3871;
-    border: none;
-    background: none;
+    border-radius: 15px;
+    opacity: 0.8;
 }
 
 /* Button encriptar*/
 .btn-encriptar{
-    margin: 669px 0 24px 240px;
+    margin: 280px 0 24px 240px;
     width: 328px;
     height: 67px;
     background: #0A3871;
@@ -175,6 +179,7 @@ header h1:hover{
     color: #FFFFFF;
     font-size: 16px;
     transition: 1s;
+    box-shadow: 0px 24px 32px -8px;
 }
 
 .btn-encriptar:hover{
@@ -196,11 +201,13 @@ header h1:hover{
     font-size: 16px;
     font-weight: bold;
     transition: 700ms;
+    background: lightblue;
+    box-shadow: 0px 24px 32px -8px;
 }
 
 .btn-desencriptar:hover{
-    background: black;
-    color: #FFFFFF;
+    background: #FFFFFF;
+    color: #0A3871;
     font-weight: bold;
     font-size: 17px;
     border-color: gray;
@@ -209,7 +216,16 @@ header h1:hover{
 .datosFooter {
     display: flex;
     margin: 30px; 
-    padding-bottom: 20px
+    padding-bottom: 20px;
+}
+
+.datosFooter p{
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+    padding:3px;
+    background: rgba(173, 216, 230, 0.575);
+    border-radius: 50px;
 }
 
 .datosPrincipales {
