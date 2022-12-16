@@ -1,13 +1,10 @@
 body {
     position: relative;
-    width: 1440px;
+    width: 100vw;
     height: 770px;
-    background-image: url(./imagenes/fondo-codigos.jpg);
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
-    height: 770px;
-    background-image: url(./imagenes/fondo-codigos.jpg);
-    background-size: cover;
+    background: rgba(0, 0, 0, 0.9);
+    /*background-image: url(./imagenes/fondo-codigos.jpg);
+    background-size: cover;*/
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -229,17 +226,8 @@ header h1{
     font-size:20px;
     font-weight: bold;
     padding:3px;
-    background: rgba(173, 216, 230, 0.575);
-    border-radius: 50px;;
-}
-
-.datosFooter p{
-    color: black;
-    font-size:20px;
-    font-weight: bold;
-    padding:3px;
-    background: rgba(173, 216, 230, 0.575);
-    border-radius: 50px;
+    /* background: rgba(173, 216, 230, 0.849); */
+    background: wheat;
 }
 
 .datosPrincipales {
