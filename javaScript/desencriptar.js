@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5cc2a80 (fix some styles)
 let btnDesencriptar = document.querySelector('#btn-desencriptar');
 
 btnDesencriptar.addEventListener('click',(e)=>{
@@ -63,6 +66,7 @@ btnDesencriptar.addEventListener('click',(e)=>{
 
     let form = document.querySelector('#formulario')
     form.reset()
+<<<<<<< HEAD
 =======
 let btnDesencriptar = document.querySelector('#btn-desencriptar');
 
@@ -129,4 +133,6 @@ btnDesencriptar.addEventListener('click',(e)=>{
     let form = document.querySelector('#formulario')
     form.reset()
 >>>>>>> 1a5a20e (programa funcional)
+=======
+>>>>>>> 5cc2a80 (fix some styles)
 })

@@ -14,12 +14,13 @@ body {
 header h1{
     font-size: 30px;
     font-weight: bold;
-    margin: 40px 500px;
+    margin: 40px 300px;
     color:black;
     text-decoration: underline;
     transition: 1s;
     text-align: center;
-    background-color:rgba(173, 216, 230, 0.575);
+    /* background-color:rgba(173, 216, 230, 0.575); */
+    background: wheat;
     padding: 10px 10px;
     border-radius: 30px;
 }
@@ -41,8 +42,8 @@ header h1{
     position: absolute;
     width: 400px;
     height: 600px;
-    left: 1000px;
-    top: 40px;
+    left: 850px;
+    top: 60px;
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 1);
     border-radius: 32px;
@@ -91,7 +92,7 @@ header h1{
     position: absolute;
     width: 400px;
     height: 48px;
-    margin: 350px auto;
+    margin: 395px auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -106,7 +107,7 @@ header h1{
     position: absolute;
     width: 400px;
     height: 58px;
-    margin: 310px auto;
+    margin: 365px auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -121,7 +122,7 @@ header h1{
     position: absolute;
     width: 336px;
     height: 304px;
-    margin: 10px 32px;
+    margin: 80px 32px;
 }
 
 /* Frame 1 */
@@ -133,8 +134,8 @@ header h1{
     position: absolute;
     width: 320px;
     height: 18px;
-    left: 264px;
-    top: 500px;
+    left: 110px;
+    top: 480px;
 }
 
 .instruccionesUsuario{
@@ -161,7 +162,7 @@ header h1{
     position: absolute;
     width: 680px;
     height: 288px;
-    left: 240px;
+    left: 110px;
     top: 168px;
     font-family: 'Inter';
     font-style: normal;
@@ -175,7 +176,7 @@ header h1{
 
 /* Button encriptar*/
 .btn-encriptar{
-    margin: 280px 0 24px 240px;
+    margin: 420px 0 24px 110px;
     width: 328px;
     height: 67px;
     background: #0A3871;
@@ -183,7 +184,7 @@ header h1{
     color: #FFFFFF;
     font-size: 16px;
     transition: 1s;
-    box-shadow: 0px 24px 32px -8px;
+    /* box-shadow: 0px 24px 32px -8px; */
 }
 
 .btn-encriptar:hover{
@@ -206,7 +207,7 @@ header h1{
     font-weight: bold;
     transition: 700ms;
     background: lightblue;
-    box-shadow: 0px 24px 32px -8px;
+   /*  box-shadow: 0px 24px 32px -8px; */
 }
 
 .btn-desencriptar:hover{
